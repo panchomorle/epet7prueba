@@ -1,0 +1,22 @@
+
+
+$primary: #110dfd;
+$success: #4e4e4e;
+$secondary: #ffffff;
+$warning: #130f3f;
+$danger: #82fff5;
+
+
+.fondo-card{
+    background-image: url(./judios.jpeg);
+    background-repeat: no-repeat;
+    background-position: 80% top;
+}
+@media(min-width: 992px){
+    .alto-100{
+        height: 100vh;
+    }
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
